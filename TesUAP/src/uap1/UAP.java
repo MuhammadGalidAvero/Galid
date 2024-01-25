@@ -60,7 +60,7 @@ public class UAP extends JFrame {
 	 * Create the frame.
 	 */
 	public UAP() {
-		SetGet set = new SetGet();
+	
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 650, 620);
 		contentPane = new JPanel();
@@ -72,7 +72,7 @@ public class UAP extends JFrame {
 		
 		JLabel JudulProgram = new JLabel("GAMING SPACE");
 		JudulProgram.setHorizontalAlignment(SwingConstants.CENTER);
-		JudulProgram.setFont(new Font("Stencil", Font.BOLD, 24));
+		JudulProgram.setFont(new Font("Stencil", Font.BOLD, 28));
 		JudulProgram.setBounds(0, 10, 626, 40);
 		contentPane.add(JudulProgram);
 		
