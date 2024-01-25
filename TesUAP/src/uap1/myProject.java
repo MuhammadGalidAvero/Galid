@@ -26,7 +26,7 @@ import java.awt.event.ComponentEvent;
 import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeEvent;
 
-public class UAP extends JFrame {
+public class myProject extends JFrame {
 
 	private static final long serialVersionUID = 1L;
 	private JPanel contentPane;
@@ -45,7 +45,7 @@ public class UAP extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					UAP frame = new UAP();
+					myProject frame = new myProject();
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -59,8 +59,8 @@ public class UAP extends JFrame {
 	/**
 	 * Create the frame.
 	 */
-	public UAP() {
-	
+	public myProject() {
+		setTitle("Toko Game");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 650, 620);
 		contentPane = new JPanel();
